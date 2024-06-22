@@ -1,0 +1,33 @@
+[2024-06-22T15:21:48.018+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dynamic_tasks_dag.task_6 scheduled__2024-03-24T00:00:00+00:00 [queued]>
+[2024-06-22T15:21:48.079+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dynamic_tasks_dag.task_6 scheduled__2024-03-24T00:00:00+00:00 [queued]>
+[2024-06-22T15:21:48.086+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-22T15:21:48.086+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2024-06-22T15:21:48.089+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-22T15:21:48.130+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): task_6> on 2024-03-24 00:00:00+00:00
+[2024-06-22T15:21:48.140+0000] {standard_task_runner.py:55} INFO - Started process 3117 to run task
+[2024-06-22T15:21:48.181+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dynamic_tasks_dag', 'task_6', 'scheduled__2024-03-24T00:00:00+00:00', '--job-id', '1235', '--raw', '--subdir', 'DAGS_FOLDER/dynamic_tasks.py', '--cfg-path', '/tmp/tmp2_5erhyw']
+[2024-06-22T15:21:48.196+0000] {standard_task_runner.py:83} INFO - Job 1235: Subtask task_6
+[2024-06-22T15:21:48.352+0000] {task_command.py:376} INFO - Running <TaskInstance: dynamic_tasks_dag.task_6 scheduled__2024-03-24T00:00:00+00:00 [running]> on host 5f0aa929f7fe
+[2024-06-22T15:21:48.480+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dynamic_tasks_dag
+AIRFLOW_CTX_TASK_ID=task_6
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-24T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-03-24T00:00:00+00:00
+[2024-06-22T15:21:48.482+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2024-06-22T15:21:48.482+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'exit 1']
+[2024-06-22T15:21:48.514+0000] {subprocess.py:86} INFO - Output:
+[2024-06-22T15:21:48.551+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-06-22T15:21:48.589+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-06-22T15:21:48.595+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=dynamic_tasks_dag, task_id=task_6, execution_date=20240324T000000, start_date=20240622T152148, end_date=20240622T152148
+[2024-06-22T15:21:48.640+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 1235 for task task_6 (Bash command failed. The command returned a non-zero exit code 1.; 3117)
+[2024-06-22T15:21:48.696+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2024-06-22T15:21:48.832+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

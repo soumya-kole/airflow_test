@@ -1,0 +1,25 @@
+[2024-06-11T22:38:35.950+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: example_dag_with_callback.task1 manual__2024-06-11T22:38:35.486576+00:00 [queued]>
+[2024-06-11T22:38:35.954+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: example_dag_with_callback.task1 manual__2024-06-11T22:38:35.486576+00:00 [queued]>
+[2024-06-11T22:38:35.955+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-11T22:38:35.955+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2024-06-11T22:38:35.955+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-11T22:38:35.963+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): task1> on 2024-06-11 22:38:35.486576+00:00
+[2024-06-11T22:38:35.966+0000] {standard_task_runner.py:55} INFO - Started process 3672 to run task
+[2024-06-11T22:38:35.968+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'example_dag_with_callback', 'task1', 'manual__2024-06-11T22:38:35.486576+00:00', '--job-id', '223', '--raw', '--subdir', 'DAGS_FOLDER/example_dag_with_callback.py', '--cfg-path', '/tmp/tmpw942oe8s']
+[2024-06-11T22:38:35.969+0000] {standard_task_runner.py:83} INFO - Job 223: Subtask task1
+[2024-06-11T22:38:35.998+0000] {task_command.py:376} INFO - Running <TaskInstance: example_dag_with_callback.task1 manual__2024-06-11T22:38:35.486576+00:00 [running]> on host 91b1d49ba724
+[2024-06-11T22:38:36.031+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=example_dag_with_callback
+AIRFLOW_CTX_TASK_ID=task1
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-11T22:38:35.486576+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-06-11T22:38:35.486576+00:00
+[2024-06-11T22:38:36.031+0000] {logging_mixin.py:120} INFO - Task 1 is completed
+[2024-06-11T22:38:38.033+0000] {python.py:177} INFO - Done. Returned value was: None
+[2024-06-11T22:38:38.059+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=example_dag_with_callback, task_id=task1, execution_date=20240611T223835, start_date=20240611T223835, end_date=20240611T223838
+[2024-06-11T22:38:38.059+0000] {logging_mixin.py:120} INFO - DAG has succeeded, run_id: manual__2024-06-11T22:38:35.486576+00:00
+[2024-06-11T22:38:38.074+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2024-06-11T22:38:38.094+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
