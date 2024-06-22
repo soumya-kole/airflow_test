@@ -964,3 +964,10 @@
 [2024-06-22T20:04:21.365+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:04:21.365+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2024-06-22T20:04:21.377+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:04:21.377+0000] {dag.py:3340} INFO - Setting next_dagrun for example_dag_with_callback to None, run_after=None
 [2024-06-22T20:04:21.385+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/example_dag_with_callback.py took 0.067 seconds
+[2024-06-22T20:04:51.632+0000] {processor.py:154} INFO - Started process (PID=4462) to work on /opt/airflow/dags/example_dag_with_callback.py
+[2024-06-22T20:04:51.632+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/example_dag_with_callback.py for tasks to queue
+[2024-06-22T20:04:51.633+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:04:51.633+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag_with_callback.py
+[2024-06-22T20:04:51.645+0000] {processor.py:766} INFO - DAG(s) dict_keys(['example_dag_with_callback']) retrieved from /opt/airflow/dags/example_dag_with_callback.py
+[2024-06-22T20:04:51.671+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:04:51.671+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-06-22T20:04:51.683+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:04:51.683+0000] {dag.py:3340} INFO - Setting next_dagrun for example_dag_with_callback to None, run_after=None
+[2024-06-22T20:04:51.690+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/example_dag_with_callback.py took 0.060 seconds

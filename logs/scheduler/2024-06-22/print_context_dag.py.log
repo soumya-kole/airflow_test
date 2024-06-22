@@ -964,3 +964,10 @@
 [2024-06-22T20:04:21.419+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:04:21.418+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2024-06-22T20:04:21.431+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:04:21.431+0000] {dag.py:3340} INFO - Setting next_dagrun for print_context_dag to None, run_after=None
 [2024-06-22T20:04:21.438+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/print_context_dag.py took 0.051 seconds
+[2024-06-22T20:04:51.694+0000] {processor.py:154} INFO - Started process (PID=4463) to work on /opt/airflow/dags/print_context_dag.py
+[2024-06-22T20:04:51.695+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/print_context_dag.py for tasks to queue
+[2024-06-22T20:04:51.695+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:04:51.695+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/print_context_dag.py
+[2024-06-22T20:04:51.704+0000] {processor.py:766} INFO - DAG(s) dict_keys(['print_context_dag']) retrieved from /opt/airflow/dags/print_context_dag.py
+[2024-06-22T20:04:51.725+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:04:51.725+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-06-22T20:04:51.737+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:04:51.737+0000] {dag.py:3340} INFO - Setting next_dagrun for print_context_dag to None, run_after=None
+[2024-06-22T20:04:51.746+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/print_context_dag.py took 0.054 seconds
