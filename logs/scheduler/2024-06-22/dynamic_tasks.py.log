@@ -982,3 +982,73 @@ airflow.exceptions.DuplicateTaskIdFound: Task id 'task_group.completion_marker' 
 [2024-06-22T20:04:51.663+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:04:51.663+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2024-06-22T20:04:51.675+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:04:51.675+0000] {dag.py:3340} INFO - Setting next_dagrun for dynamic_tasks_dag to None, run_after=None
 [2024-06-22T20:04:51.682+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dynamic_tasks.py took 0.056 seconds
+[2024-06-22T20:05:21.989+0000] {processor.py:154} INFO - Started process (PID=4492) to work on /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:05:21.990+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dynamic_tasks.py for tasks to queue
+[2024-06-22T20:05:21.990+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:05:21.990+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:05:22.002+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dynamic_tasks_dag']) retrieved from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:05:22.026+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:05:22.026+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-06-22T20:05:22.038+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:05:22.038+0000] {dag.py:3340} INFO - Setting next_dagrun for dynamic_tasks_dag to None, run_after=None
+[2024-06-22T20:05:22.046+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dynamic_tasks.py took 0.059 seconds
+[2024-06-22T20:05:52.507+0000] {processor.py:154} INFO - Started process (PID=4523) to work on /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:05:52.508+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dynamic_tasks.py for tasks to queue
+[2024-06-22T20:05:52.508+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:05:52.508+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:05:52.519+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dynamic_tasks_dag']) retrieved from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:05:52.543+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:05:52.543+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-06-22T20:05:52.559+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:05:52.558+0000] {dag.py:3340} INFO - Setting next_dagrun for dynamic_tasks_dag to None, run_after=None
+[2024-06-22T20:05:52.571+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dynamic_tasks.py took 0.066 seconds
+[2024-06-22T20:06:22.998+0000] {processor.py:154} INFO - Started process (PID=4545) to work on /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:06:22.999+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dynamic_tasks.py for tasks to queue
+[2024-06-22T20:06:22.999+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:06:22.999+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:06:23.009+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dynamic_tasks_dag']) retrieved from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:06:23.031+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:06:23.031+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-06-22T20:06:23.043+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:06:23.043+0000] {dag.py:3340} INFO - Setting next_dagrun for dynamic_tasks_dag to None, run_after=None
+[2024-06-22T20:06:23.050+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dynamic_tasks.py took 0.055 seconds
+[2024-06-22T20:06:53.459+0000] {processor.py:154} INFO - Started process (PID=4578) to work on /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:06:53.460+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dynamic_tasks.py for tasks to queue
+[2024-06-22T20:06:53.461+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:06:53.461+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:06:53.471+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dynamic_tasks_dag']) retrieved from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:06:53.492+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:06:53.492+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-06-22T20:06:53.504+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:06:53.504+0000] {dag.py:3340} INFO - Setting next_dagrun for dynamic_tasks_dag to None, run_after=None
+[2024-06-22T20:06:53.512+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dynamic_tasks.py took 0.055 seconds
+[2024-06-22T20:07:23.826+0000] {processor.py:154} INFO - Started process (PID=4609) to work on /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:07:23.827+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dynamic_tasks.py for tasks to queue
+[2024-06-22T20:07:23.827+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:07:23.827+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:07:23.838+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dynamic_tasks_dag']) retrieved from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:07:23.860+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:07:23.860+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-06-22T20:07:23.872+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:07:23.872+0000] {dag.py:3340} INFO - Setting next_dagrun for dynamic_tasks_dag to None, run_after=None
+[2024-06-22T20:07:23.880+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dynamic_tasks.py took 0.061 seconds
+[2024-06-22T20:07:54.181+0000] {processor.py:154} INFO - Started process (PID=4640) to work on /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:07:54.181+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dynamic_tasks.py for tasks to queue
+[2024-06-22T20:07:54.182+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:07:54.182+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:07:54.191+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dynamic_tasks_dag']) retrieved from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:07:54.213+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:07:54.213+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-06-22T20:07:54.226+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:07:54.226+0000] {dag.py:3340} INFO - Setting next_dagrun for dynamic_tasks_dag to None, run_after=None
+[2024-06-22T20:07:54.235+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dynamic_tasks.py took 0.057 seconds
+[2024-06-22T20:08:24.595+0000] {processor.py:154} INFO - Started process (PID=4672) to work on /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:08:24.597+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dynamic_tasks.py for tasks to queue
+[2024-06-22T20:08:24.597+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:08:24.597+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:08:24.609+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dynamic_tasks_dag']) retrieved from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:08:24.631+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:08:24.631+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-06-22T20:08:24.643+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:08:24.643+0000] {dag.py:3340} INFO - Setting next_dagrun for dynamic_tasks_dag to None, run_after=None
+[2024-06-22T20:08:24.650+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dynamic_tasks.py took 0.059 seconds
+[2024-06-22T20:08:54.990+0000] {processor.py:154} INFO - Started process (PID=4703) to work on /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:08:54.990+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dynamic_tasks.py for tasks to queue
+[2024-06-22T20:08:54.991+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:08:54.991+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:08:55.001+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dynamic_tasks_dag']) retrieved from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:08:55.023+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:08:55.023+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-06-22T20:08:55.036+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:08:55.035+0000] {dag.py:3340} INFO - Setting next_dagrun for dynamic_tasks_dag to None, run_after=None
+[2024-06-22T20:08:55.043+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dynamic_tasks.py took 0.055 seconds
+[2024-06-22T20:09:25.411+0000] {processor.py:154} INFO - Started process (PID=4732) to work on /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:09:25.412+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dynamic_tasks.py for tasks to queue
+[2024-06-22T20:09:25.413+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:09:25.412+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:09:25.423+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dynamic_tasks_dag']) retrieved from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:09:25.444+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:09:25.443+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-06-22T20:09:25.455+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:09:25.455+0000] {dag.py:3340} INFO - Setting next_dagrun for dynamic_tasks_dag to None, run_after=None
+[2024-06-22T20:09:25.463+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dynamic_tasks.py took 0.053 seconds
+[2024-06-22T20:09:55.832+0000] {processor.py:154} INFO - Started process (PID=4756) to work on /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:09:55.833+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dynamic_tasks.py for tasks to queue
+[2024-06-22T20:09:55.834+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:09:55.833+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:09:55.844+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dynamic_tasks_dag']) retrieved from /opt/airflow/dags/dynamic_tasks.py
+[2024-06-22T20:09:55.866+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:09:55.866+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-06-22T20:09:55.878+0000] {logging_mixin.py:120} INFO - [2024-06-22T20:09:55.878+0000] {dag.py:3340} INFO - Setting next_dagrun for dynamic_tasks_dag to None, run_after=None
+[2024-06-22T20:09:55.886+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dynamic_tasks.py took 0.056 seconds
